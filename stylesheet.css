@@ -1,0 +1,135 @@
+h1,p,h3,h4{
+  font-family: verdana;
+
+}
+
+#logo{
+  width: 20%;
+  margin:0;
+  padding:0;
+}
+#logo img{
+  width:40%;
+}
+
+#menu_items a{
+  color:#f5f0e3;
+  font-size: 1.5em;
+  /* background-color: black; */
+}
+
+.headLocation{
+  background:transparent;
+  color:white;
+  font-size:1.5em;
+  border:none;
+}
+
+.location{
+  color: black;
+}
+
+.fa {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.bg1{
+  background-image: url("c2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+
+}
+
+.bg2{
+  background-image: url("c2.jpg");
+  height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+
+}
+.bg3{
+  background-image: url("c2.jpg");
+  height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+
+}
+
+.bg4{
+  background-image: url("c2.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(50,83,113,0.9);
+  background-blend-mode: multiply;
+}
+
+/* for carousel*/
+html,body{height:100%;}
+.carousel,.carousel-item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+
+.face{
+
+  position: absolute;
+  top: 30%;
+  color: #f5f0e3;
+}
+.officeIcon{
+  text-align: center;
+  margin-left:40%;
+}
+
+.officeIcon img{
+  border-radius: 60%;
+}
+
+.searchCity{
+  width:30%;
+  background-color:white;
+}
+
+.menu{
+  background-color: transparent;
+ transition: background-color 0.5s ease;
+}
+.nav-transparent{
+  background-color: transparent;
+}
+
+.nav-colored{
+  background-color: black;
+
+}
+@media only screen and (min-width: 992px){
+  #firstIcon{
+    margin-left: 8%;
+  }
+}

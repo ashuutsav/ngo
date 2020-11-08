@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cowork</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/54554281c0.js' crossorigin="anonymous"></script>
+
+  <style>
+
+  </style>
+
+  </head>
+  <body>
+
+
+    <div class="container-fluid" >
+   <nav class="navbar navbar-expand-lg fixed-top menu">
+     <a class="navbar-brand" id="logo" href="#">
+       <img   src="c2.jpg">
+     </a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu_items" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="">
+           <i class="fa fa-navicon" style="color:black; font-size:28px;"></i>
+       </span>
+     </button>
+     <div class="collapse navbar-collapse" id="menu_items">
+
+       <ul class="navbar-nav ml-auto" >
+         <li class="nav-items active">
+           <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-items" data-toggle="collapse" data-target=".navbar-collapse.show">
+           <a class="nav-link" href="#contactus" >Contact Us</a>
+         </li>
+         <li class="nav-items" data-toggle="collapse" data-target=".navbar-collapse.show">
+           <a class="nav-link" onclick="document.getElementById('id01').style.display='block'" href="#" style="width:auto;cursor:pointer;" >Login</a>
+         </li>
+         <li class="nav-items" data-toggle="collapse" data-target=".navbar-collapse.show">
+           <a class="nav-link" onclick="document.getElementById('id02').style.display='block'" href="#" style="width:auto;cursor:pointer;" >Sign Up</a>
+         </li>
+
+
+         <li class="nav-items">
+           <a href="#"><i class="fa fa-facebook"></i></a>
+         </li>
+
+       </ul>
+     </div>
+   </nav>
+ </div>
+
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000" >
+
+   <!-- Indicators -->
+   <ul class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ul>
+
+   <!-- The slideshow -->
+   <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="bg1">
+
+        </div>
+     </div>
+     <div class="carousel-item">
+       <div class="bg2">
+
+       </div>
+     </div>
+     <div class="carousel-item">
+       <div class="bg3">
+
+       </div>
+     </div>
+   </div>
+ </div>
+
+
+<div class="face">
+
+
+ <div class="container-fluid text-center officeIcon">
+   <h1>HELP MAKE SOMEONES LIFE BETTER</h1><br><br>
+  <button type="button" name="button">Donate</button>
+  </div>
+</div>
+
+
+<div class="container-fluid text-center">
+<h1>&copy; NGO</h1>
+</div>
+
+  <script type="text/javascript">
+        $(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $(window).height()){
+
+          $("nav").addClass("nav-colored");
+      $("nav").removeClass("nav-transparent");
+        }
+        else{
+
+          $("nav").addClass("nav-transparent");
+        $("nav").removeClass("nav-colored");
+       }
+
+    });
+});
+  </script>
+  </body>
+</html>
